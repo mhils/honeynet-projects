@@ -1,0 +1,6 @@
+{% for project in projects %}
+	<h4>{{ project.title.0 }}</h4>
+	{{ project.content }}
+    <a href="{{ project.url.0 }}">{{ project.title.0 }}</a>
+	
+{% endfor %}
